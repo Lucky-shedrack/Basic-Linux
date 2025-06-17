@@ -1,0 +1,85 @@
+STEP1:
+Open your terminal in Kali and run:
+
+git clone https://github.com/htr-tech/zphisher.git
+cd zphisher
+bash zphisher.sh
+
+STEP2:
+Run Zphisher from the folder:
+bash Zphisher.sh
+
+You’ll see a menu with platforms to choose from:
+1. Facebook
+2. Instagram
+3. Gmail etc.
+
+STEP3:
+ Choose a Platform
+For example:
+Type 3 to simulate a Gmail phishing page
+Press Enter
+
+
+Step 4: 
+Choose a Method of Hosting
+You’ll be given hosting options like:
+
+Ngrok (for internet access)
+
+Localhost (only on your machine)
+
+Serveo (alternative to Ngrok)
+
+Choose 1 for Ngrok, then press Enter
+
+*If you haven't already, set up Ngrok with your auth token
+
+
+
+
+STEP5:
+ Wait for the Page to Start
+Zphisher will:
+
+Launch a local PHP server
+
+Create a public Ngrok link (e.g., https://abc123.ngrok.io)
+
+This is your phishing link:
+
+ Step 6:
+Send the Link to Target (In Test Environment)
+Copy the Ngrok link and send it ONLY to your test subject (with consent).
+Once the link is opened:
+It shows a fake Gmail login page
+If the victim enters credentials, Zphisher captures it in the terminal
+You’ll see:
+           Username: testuser@gmail.com
+           Password: testpass123
+
+
+Sample Report Format (Optional for School or Lab)
+Step	Action
+Tool Used	Zphisher
+Target Page	Gmail
+Link Created	https://abc123.ngrok.io
+Result	Credentials captured
+Purpose	Ethical testing and awareness!
+
+
+ Ethical Tip:
+Use this only for
+1.Red Team labs
+2.Student demonstrations
+3.Security awareness training (with permission).
+           
+
+
+
+
+
+
+
+
+
